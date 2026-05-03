@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+header { text-align: center; padding: 2rem; color: white; }
+header h1 { font-size: 3rem; margin-bottom: 1rem; }
+#search { padding: 1rem 2rem; font-size: 1.2rem; border: none; border-radius: 50px; width: 500px; max-width: 90vw; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+
+.link-card { background: white; margin: 1rem auto; max-width: 1200px; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1); transition: transform 0.3s; }
+.link-card:hover { transform: translateY(-5px); }
+.link-header { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 1.5rem; color: white; }
+.link-header h2 { font-size: 1.8rem; }
+.link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; padding: 2rem; }
+.link-item { background: #f8f9fa; padding: 1.5rem; border-radius: 15px; border-left: 5px solid #4facfe; transition: all 0.3s; }
+.link-item:hover { background: white; transform: translateX(10px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+.link-item a { color: #333; text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+.link-item a:hover { color: #4facfe; }
+.category-tag { display: inline-block; background: #4facfe; color: white; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; margin-right: 0.5rem; }
+
