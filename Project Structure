@@ -1,0 +1,9 @@
+link-collection/
+├── index.html          # Main page
+├── css/style.css       # Styling
+├── js/script.js        # Search/Filter
+├── categories/         # Category pages
+├── assets/
+│   ├── icons/         # Favicons
+│   └── images/
+└── README.md
